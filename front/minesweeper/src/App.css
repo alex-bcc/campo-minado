@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: rgb(37,60,110);
+  background: radial-gradient(circle, rgba(37,60,110,1) 0%, rgba(23,37,66,1) 43%, rgba(10,17,32,1) 100%);
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+.board-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  /* background-color: red; */
+}
+
+.solver {
+  margin-left: 30px;
+}
+

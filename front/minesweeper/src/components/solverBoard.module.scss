@@ -1,0 +1,49 @@
+.upper {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upper img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.board {
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  // gap: 5px;
+  background-color: rgb(209, 209, 209);
+  border-radius: 8px;
+  padding: 2px;
+  border-color: rgba(0, 0, 0, 0.858);
+}
+
+.rows {
+  display: flex;
+  justify-content: space-around;
+  background-color: #122347;
+  border-color: blue;
+  gap: 0px;
+  // gap: px;
+}
+
+.cell {
+  width: 30px; 
+  height: 30px; 
+  display: flex;
+  flex-direction: column;
+  padding: 17px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-color: rgb(174, 129, 57);
+  border: 2px solid; 
+}

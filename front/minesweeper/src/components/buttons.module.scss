@@ -1,0 +1,44 @@
+.selectorContainer {
+  display: flex;
+  margin: auto;
+  width: fit-content;
+  gap: 20px;
+}
+
+.selector {
+  background-color: white;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.play {
+  width: 120px;
+  height: 40px;
+  padding: 8px 14px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #FCA311;
+}
+
+.play:hover {
+  background-color: #e7991d;
+  transition: 0.3s ease;
+}
+
+.normal {
+  width: 120px;
+  height: 40px;
+  padding: 8px 14px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #14213D;
+  cursor: pointer;
+}
+
+.normal:hover {
+  color: #14213D;
+  background-color: #ededed;
+  transition: 0.3s ease;
+}
+
