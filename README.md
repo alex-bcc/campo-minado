@@ -38,6 +38,12 @@ Em resumo, a lógica aplicada neste projeto permite criar uma versão simplifica
 </ul>
 
 <h3><a href = "https://react.dev/">REACT</a></h3>
+<ul>   
+   <li>Versão: 18.2.0 </li>
+</ul>
+
+<h3><a href = "https://spring.io/">SPRING BOOT</a></h3>
+
 
 <h1>Status do projeto:</h1>
 <h4>Em andamento</h4>
